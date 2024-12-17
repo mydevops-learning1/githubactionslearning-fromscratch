@@ -6,8 +6,8 @@ on: # give values as workflow_dispatch so that you can trigger workflow manually
   workflow_dispatch:
     inputs: # with this, we can give values at runtime 
       name: # this is the name of the input, "name"
-        description: "person to greeet" # write a description to your input
-        default: "phani" #default value
+        description: 'person to greeet' # write a description to your input
+        default: 'phani' #default value
         required: true
 
 jobs: # a workflow is made up of one or more jobs that can run sequential or in parallel
